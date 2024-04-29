@@ -1,12 +1,12 @@
 {
-  "name": "GIC",
+  "name": "Guttierez project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.js",
   "scripts": {
     "watch:sass": "sass src/sass/main.scss src/style.css -w",
     "devserver": "live-server",
-    "compile:sass": "sass src/sass/main.scss src/css/style.comp.css"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "keywords": [],
   "author": "Jaffar",
