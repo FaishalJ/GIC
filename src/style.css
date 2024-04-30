@@ -6,7 +6,7 @@
   --black-tint-7: #222;
   --white: #fff;
   --black-tint-4: #555;
-  --box-shadow-50: 2px 2px 5px 0px rgba(0, 0, 0, 0.40);
+  --box-shadow-50: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
   --text-shadow: 2px 2px 4px var(--black-tint-3);
   --bg-main: #3b5998;
   --bg-blue--dark: #00204a;
@@ -189,13 +189,12 @@ body {
     align-self: center;
   }
 }
-@media only screen and (orientation: landscape) {
+@media only screen and (max-height: 53.125em) {
   .header {
-    background-image: linear-gradient(to right, rgba(16, 17, 18, 0.5), rgba(16, 17, 18, 0.5)), url("images/bg-Architect-5.jpg");
+    height: 100vh;
   }
   .header__banner {
-    left: 10%;
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -524,7 +523,7 @@ body {
 }
 .services__consultant--charges {
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
 }
 .services__consultant__descript {
   text-align: center;

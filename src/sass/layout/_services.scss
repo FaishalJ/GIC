@@ -33,8 +33,8 @@
       box-shadow: var(--box-shadow-50);
       padding: 2rem 3rem;
       text-align: center;
-      border: .3rem solid transparent;
-      transition: .2s ease;
+      border: 0.3rem solid transparent;
+      transition: 0.2s ease;
 
       span {
         display: block;
@@ -44,7 +44,7 @@
       }
 
       &:hover {
-        border: .3rem solid #899bc1;
+        border: 0.3rem solid #899bc1;
       }
     }
   }
@@ -63,7 +63,7 @@
 
     &--charges {
       display: flex;
-      gap: 2rem;
+      gap: 5rem;
     }
 
     &__descript {
@@ -107,7 +107,6 @@
   @media only screen and (max-width: a.$bp-sm-md-2) {
     &__consultant {
       &--charges {
-
         &-1,
         &-2 {
           flex-basis: 40%;
