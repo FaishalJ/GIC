@@ -197,6 +197,15 @@ body {
     width: 60%;
   }
 }
+@media only screen and (max-height: 21.875em) {
+  .header__banner {
+    top: 55%;
+    width: 70%;
+  }
+  .header__banner__about {
+    gap: 2rem;
+  }
+}
 
 .navigation {
   position: absolute;
@@ -673,12 +682,13 @@ body {
     gap: 1rem;
   }
 }
-@media only screen and (max-width: 28.125em) {
+@media only screen and (max-width: 25em) {
   .footer__line {
-    width: 56%;
+    display: none;
   }
   .footer__list {
-    gap: 0;
+    gap: 2rem;
+    flex-direction: column;
   }
 }
 

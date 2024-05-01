@@ -87,4 +87,13 @@
       width: 60%;
     }
   }
+  @media only screen and (max-height: a.$hp-sm-2) {
+    &__banner {
+      top: 55%;
+      width: 70%;
+      &__about {
+        gap: 2rem;
+      }
+    }
+  }
 }
